@@ -1,0 +1,71 @@
+        
+#slide {
+    width: 100%;
+    height: 410;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#slide > #slide-pic {
+    width: 4800;
+    height: 410;
+    margin: 0px;
+    padding: 0px;
+    transition: transform 1s;
+}
+        
+#slide > #slide-pic > img {
+    width: 960;
+    height: 410;
+    float: left;
+    cursor: pointer;
+}
+        
+#about {
+    text-align: center;
+    font-size: 30px;
+}
+        
+#about > span {
+    color: B1DED3;
+}
+        
+#season {
+    width: 960px;
+    height: 565px;
+    background-image: url(Main/season.jpg);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+        
+#season > div {
+    float: left;
+    width: 220px;
+    height: 529px;
+    margin-left: 15px;
+    background-color: white;
+    opacity: 0;
+}
+        
+#season > div:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+        
+#caption {
+    font-size: 30px;
+    text-align: center;
+}
+        
+#nha-mau {
+    width: 960px;
+    height: 640px;
+}
+
+#qc {
+    margin: auto;
+    width: 960px;
+}
+

@@ -1,0 +1,94 @@
+.box {
+            border: 1px black solid;
+        }
+        
+        div {
+            box-sizing: border-box;
+        }
+        
+        #main {
+            width: 960px;
+            height: 480px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #top, #bot {
+            width: 960px;
+            height: 80px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #mid {
+            width: 960px;
+            height: 320px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #mid-left, #mid-right {
+            width: 80px;
+            height: 320px;
+            margin: 0px;
+            padding: 0px;
+            float: left;
+        }
+        
+        #mid-mid {
+            width: 797px;
+            height: 320px;
+            margin: 0px;
+            padding: 0px;
+            float: left;
+        }
+        
+        #mid-mid-left, #mid-mid-right {
+            width: 50%;
+            height: 320px;
+            margin: 0px;
+            padding: 0px;
+            float: left;
+        }
+        
+        .item {
+            float: left;
+            width: 79.8px;
+            height: 80px;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+        
+        .item > img {
+            width: 77px;
+            height: 77px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #back, #next {
+            width: 10%;
+            float: left;
+            height: 40px;
+            transform: translateY(140px);
+        }
+        
+        #back > img, #next > img {
+            width: 100%;
+        }
+        
+        #khuon-img {
+            width: 89%;
+            float: left;
+            height: 320px;
+        }
+        
+        #thong-tin {
+            width: 90%;
+            float: left;
+            border: 1px black solid;
+            height: 320px;
+            padding: 20px;
+            font-size: 20px;
+        }

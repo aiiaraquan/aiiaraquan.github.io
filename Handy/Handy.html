@@ -1,0 +1,109 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Handy</title>
+    <link rel="stylesheet" href="Handy.css">
+    <script src="Handy.js">
+    </script>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div id="pic">
+                <img src="Header/Living-room.jpg">
+            </div>
+            <div id="menu">
+                <div id="option">
+                    <ul>
+                        <li class="li-img"><a href="main.html" target="iframe_m"><img src="Header/Logo-pic.png"></a></li>
+                        <li onmouseover="optionOver('div-sp')" onmouseout="optionOut('div-sp')">Sản phẩm
+                            <div id="div-sp" class="option">
+                                <div>
+                                    <a href="SanPham/BanTron/BanTron.html" target="iframe_m"><img src="Header/Sp/B%C3%A0n%20tr%C3%B2n-black-pic.png" onmousemove="changeGreen(this)" onmouseout="changeBlack(this)"></a>
+                                </div>
+                                <div>
+                                    <a href="SanPham/Ghe/Ghe.html" target="iframe_m"><img src="Header/Sp/Gh%E1%BA%BF%20%C4%91%C6%A1n-black-pic.png" onmousemove="changeGreen(this)" onmouseout="changeBlack(this)"></a>
+                                </div>
+                                <div>
+                                    <a href="SanPham/Giuong/Giuong.html" target="iframe_m"><img src="Header/Sp/Gi%C6%B0%E1%BB%9Dng-black-pic.png" onmousemove="changeGreen(this)" onmouseout="changeBlack(this)"></a>
+                                </div>
+                                <div>
+                                    <a href="SanPham/KeSach/KeSach.html" target="iframe_m"><img src="Header/Sp/K%E1%BB%87%20s%C3%A1ch-black-pic.png" onmousemove="changeGreen(this)" onmouseout="changeBlack(this)"></a>
+                                </div>
+                                <div>
+                                    <a href="SanPham/Den/Den.html" target="iframe_m"><img src="Header/Sp/%C4%90%C3%A8n%20%C4%91%E1%BB%83%20b%C3%A0n-black-pic.png" onmousemove="changeGreen(this)" onmouseout="changeBlack(this)"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li onmouseover="optionOver('div-sptb')" onmouseout="optionOut('div-sptb')">Sản phẩm theo bộ
+                            <div id="div-sptb" class="option">
+                                <div>
+                                    <a href="SanPhamTheoBo/BanGhe/BanGhe.html" target="iframe_m"><img src="Header/Sptb/B%E1%BB%99%20b%C3%A0n%20gh%E1%BA%BF%20%C4%83n-black-pic.png" onmousemove="changeGreen(this)" onmouseout="changeBlack(this)"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li  onmouseover="optionOver('div-sptp')" onmouseout="optionOut('div-sptp')">Bộ sưu tập theo phòng
+                            <div id="div-sptp" class="option">
+                                <div>
+                                    <a href="BoSuuTapTheoPhong/PhongKhach/PhongKhach.html" target="iframe_m"><img src="Header/Sptp/Ph%C3%B2ng%20%C4%83n2-black-pic.png" onmousemove="changeGreen(this)" onmouseout="changeBlack(this)"></a>
+                                </div>
+                                <div>
+                                    <a href="BoSuuTapTheoPhong/PhongNgu/PhongNgu.html" target="iframe_m"><img src="Header/Sptp/Ph%C3%B2ng%20ng%E1%BB%A7-black-pic.png" onmousemove="changeGreen(this)" onmouseout="changeBlack(this)"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="LienHe.html" target="iframe_m">Chuyên gia tư vấn</a></li>
+                        <li><a href="LienHe.html" target="iframe_m">Hỗ trợ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <iframe id="main-iframe" scrolling="no" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';" src="main.html" name="iframe_m"></iframe>
+    </nav>
+    
+    <footer>
+        <hr>
+        <div id="footer">
+            <ul>
+                <li>
+                    <ul>
+                        <caption>Sản phẩm</caption>
+                        <li><a href="SanPham/BanTron/BanTron.html" target="iframe_m">Bàn</a></li>
+                        <li><a href="SanPham/Ghe/Ghe.html" target="iframe_m">Ghế</a></li>
+                        <li><a href="SanPham/Den/Den.html" target="iframe_m">Đèn</a></li>
+                        <li><a href="SanPham/Giuong/Giuong.html" target="iframe_m">Giường</a></li>
+                        <li><a href="SanPham/KeSach/KeSach.html" target="iframe_m">Kệ sách</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <caption>Sản phẩm theo bộ</caption>
+                        <li><a href="SanPhamTheoBo/BanGhe/BanGhe.html" target="iframe_m">Bộ ghế</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <caption>Bộ sưu tập theo phòng</caption>
+                        <li><a href="BoSuuTapTheoPhong/PhongKhach/PhongKhach.html" target="iframe_m">Phòng khách</a></li>
+                        <li><a href="BoSuuTapTheoPhong/PhongNgu/PhongNgu.html" target="iframe_m">Phòng ngủ</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <caption>Hệ thống chi nhánh</caption>
+                        <li><a href="LienHe.html" target="iframe_m">Miền Bắc</a></li>
+                        <li><a href="LienHe.html" target="iframe_m">Miền Trung</a></li>
+                        <li><a href="LienHe.html" target="iframe_m">Miền Nam</a></li>
+                        <caption><br><br>Liên hệ và tư vấn trực tiếp</caption>
+                        <span>Hotline: 090.113.113</span>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>

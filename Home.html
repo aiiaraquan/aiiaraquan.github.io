@@ -1,0 +1,73 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <style>
+        #bo {
+            width: 1200px;
+            height: 400px;
+            box-sizing: border-box;
+            margin: auto;
+        }
+        
+        .option {
+            float: left;
+            width: 200px;
+            height: 100px;
+            box-sizing: border-box;
+            margin: 19px;
+            background-color: chartreuse;
+        }
+        
+        a > img {
+            width: 200px;
+            height: 100px;
+            transition: width 0.5s, height 0.5s, transform 0.5s;
+            border: 2px black solid;
+        }
+        
+        a > img:hover {
+            width: 220px;
+            height: 120px;
+            transform: translate(-10px, -10px);
+        }
+        
+        #he {
+            width: 100%;
+            height: 150px;
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            margin-bottom: 100px;
+        }
+        #he > img {
+            width: 100%;
+            height: 150px;
+        }
+        
+        body {
+            background-image: url(backgound.jpg);
+        }
+    </style>
+    <script>
+        function begin() {
+            localStorage.setItem("score", 0);
+        }
+    </script>
+</head>
+<body>
+    <div id="he">
+        <img src="header.png">
+    </div>
+    <div id="bo">
+        <div class="option"><a href="123.html"><img src="123.jpg"></a></div>
+        <div class="option"><a href="Listen.html"><img src="level-1.png"></a></div>
+        <div class="option"><a href="addvideo.html"><img src="math.jpg"></a></div>
+        <div class="option"><a href="Add.html"><img src="level-2.png"></a></div>
+        <div class="option"><a href="minionsvideo.html"><img src="minions.jpg"></a></div>
+
+        <div class="option"><a href="Sub.html"><img src="level-3.png"></a></div>
+        <div class="option"><a href="Handy/Handy.html"><img src="Handy/Main/slide1.jpg"></a></div>
+    </div>
+</body>
+</html>
